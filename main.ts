@@ -29,7 +29,7 @@
 
 // im taking a gamble that i hope will work
 // for example row 2 col 3: (5,3) & (6,4)
-// end point = (start point x + (d - 1), start point y) 
+// end point = (start point x + (d - 1), start point y + (d - 1)) 
 
 function n_to_screen_coordinate(n: number, screen_size = 128, grid_length = 64, start_index = 1) {
   return start_index + (n - 1) * (screen_size / grid_length)
