@@ -44,5 +44,3 @@ function grid_to_screen_coord_range(row: number, column: number, screen_size = 1
     {x: row_coord + (d - 1), y: col_coord + (d - 1)}
   ]
 }
-
-console.log(grid_to_screen_coord_range(1, 2, 128, 32))
